@@ -24,21 +24,21 @@ export class RegisterPage{
         await this.page.waitForLoadState('networkidle');
     }
 
-    async completeRegistrationForm(
-        firstName: string, lastName: string, email: string, password: string){
-            await this.firstNameInput.fill(firstName);
-            await this.lastNameInput.fill(lastName);
-            await this.emailInput.fill(email);
-            await this.passwordInput.fill(password);
+    async completeRegistrationForm(user:{
+        firstName: string, lastName: string, email: string, password: string}){
+            await this.firstNameInput.fill(user.firstName);
+            await this.lastNameInput.fill(user.lastName);
+            await this.emailInput.fill(user.email);
+            await this.passwordInput.fill(user.password);
     }
 
     async clickOnRegistrationButton(){
         await this.registerButton.click();
     }
 
-    async completeRegistrationFormClickOnRegistrationButton(
-        firstName: string, lastName: string, email: string, password: string){
-        await this.completeRegistrationForm(firstName, lastName, email, password);
+    async completeRegistrationFormClickOnRegistrationButton(user:{
+        firstName: string, lastName: string, email: string, password: string}){
+        await this.completeRegistrationForm(user);
         await this.clickOnRegistrationButton();
     }
 }

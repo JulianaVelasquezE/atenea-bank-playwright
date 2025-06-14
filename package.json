@@ -1,21 +1,21 @@
 {
-  "name": "taller-playwright-atenea",
+  "name": "atenea-bank-playwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JulianaVelasquezE/taller-playwright-atenea.git"
+    "url": "git+https://github.com/JulianaVelasquezE/atenea-bank-playwright.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/JulianaVelasquezE/taller-playwright-atenea/issues"
+    "url": "https://github.com/JulianaVelasquezE/atenea-bank-playwright/issues"
   },
-  "homepage": "https://github.com/JulianaVelasquezE/taller-playwright-atenea#readme",
+  "homepage": "https://github.com/JulianaVelasquezE/atenea-bank-playwright#readme",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.30"

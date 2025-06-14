@@ -1,0 +1,8 @@
+{
+    "validUser":{
+        "firstName": "Juanita",
+        "lastName": "Perez",
+        "email": "email1@email.com",
+        "password": "password123"
+    }
+}
